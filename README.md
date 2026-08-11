@@ -18,11 +18,17 @@ A pfSense-based firewall and VPN build, split into two parts.
 
 **[VPN Tunnel](Network-Security-Lab/VPN-Tunnel/README.md)** — site-to-site IPSec VPN and client-to-site OpenVPN, both tested end-to-end
 
+### ☁️ Azure Cloud Security
+**[Segmented Network with RBAC-Controlled Access](Azure-Security-Lab/README.md)** — a VNet split into frontend/backend subnets, Network Security Groups enforcing least-privilege traffic rules, and access managed through Azure AD groups and role-based permissions rather than shared credentials.
+
+### 🖥️ Windows Server Infrastructure
+**[Active Directory, Print/Backup Server, and Monitoring](Windows-Server-Infrastructure/README.md)** — AD DS deployment, Group Policy enforcement (verified, not just configured), a print server, a full backup-and-restore cycle, and system monitoring/troubleshooting with Reliability Monitor, Performance Monitor, and Event Viewer.
+
 ## About
 I'm working toward a career in SOC analysis / GRC, currently completing a Cert IV in Cybersecurity. Every project here is my own work, framed honestly as coursework rather than professional experience — I'm not claiming to be more senior than I am, but I wanted to show I can actually do the work, not just talk about it. Every build and investigation in this repo includes verification steps, not just configuration screenshots.
 
 ## Skills demonstrated
-SIEM investigation (Splunk SPL) & MITRE ATT&CK mapping. Firewall configuration & zone-based security policy (pfSense). VPN architecture (IPSec site-to-site, OpenVPN client-to-site). Network monitoring & SNMP integration. Incident documentation & verification-driven testing.
+SIEM investigation (Splunk SPL) & MITRE ATT&CK mapping. Firewall configuration & zone-based security policy (pfSense). VPN architecture (IPSec site-to-site, OpenVPN client-to-site). Cloud network security & RBAC (Microsoft Azure). Active Directory, Group Policy, and Windows Server administration. Backup and disaster recovery testing. Network monitoring, SNMP integration, and system troubleshooting.
 
 ---
 📫 Open to SOC Analyst / GRC opportunities — contact details available on my LinkedIn and CV.
